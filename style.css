@@ -1,0 +1,49 @@
+* {
+  background-color: black;
+  color: aquamarine;
+}
+
+header {
+  position: fixed;
+  border-bottom: dashed;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  margin-top: -100px;
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  margin-top: 100px;
+  padding-top: 10px;
+  border-bottom: dashed;
+  border-top: dashed;
+  padding-bottom: 10px;
+}
+button {
+  background-color: azure;
+  color: black;
+}
+
+.sidebar {
+  position: relative;
+  margin-left: 80%;
+  border: dashed;
+  padding-right: 1%;
+  margin-right: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.features {
+  text-align: center;
+  border-top: dashed;
+  border-bottom: dashed;
+  padding-bottom: 3%;
+}
+footer {
+  position: sticky;
+  text-align: center;
+  border-top: dashed;
+  margin-top: 20%;
+}
